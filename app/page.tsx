@@ -49,7 +49,7 @@ export default function Home() {
           </div>
           <Dialog>
             <DialogTrigger asChild>
-              <a href="https://mockspheretrainer.vercel.app/">
+              <a href="https://secure-sensor-1pex0v.sandbox.livekit.io/">
                 <Button variant="outline" className="bg-purple-500 hover:bg-purple-600 text-white border-none">
                   Experience the interview
                 </Button>
