@@ -49,17 +49,19 @@ export default function Home() {
           </div>
           <Dialog>
             <DialogTrigger asChild>
-              <Button variant="outline" className="bg-purple-500 hover:bg-purple-600 text-white border-none">
-                Book a Demo
-              </Button>
+              <a href="https://mockspheretrainer.vercel.app/">
+                <Button variant="outline" className="bg-purple-500 hover:bg-purple-600 text-white border-none">
+                  Experience the interview
+                </Button>
+             </a>
             </DialogTrigger>
             <DialogContent className="sm:max-w-[425px] bg-gray-900 text-white">
               <DialogHeader>
-                <DialogTitle>Schedule Your Demo</DialogTitle>
+                <DialogTitle>How to use</DialogTitle>
               </DialogHeader>
               <div className="grid gap-4 py-4">
                 <p className="text-gray-300">
-                  Ready to transform your interview preparation? Fill out the form below and our team will get back to you within 24 hours.
+                  please enter the validkey provided by us in the upcoming page.
                 </p>
                 {/* Add your form components here */}
               </div>
